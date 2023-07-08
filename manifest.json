@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Youtube'da Ara",
+  "version": "1.01",
+  "description": "Seçili metni youtube üzerinde arama eklentisi",
+  "icons": {
+    "48": "icon.png"
+  },
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  }
+}
